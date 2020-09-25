@@ -6,6 +6,15 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "My MDX Blog",
+    description: "A blog built with Gatsby and MDX",
+    url: "https://your-site.netlify.app/",
+    image:
+      "/office.jpg",
+    author: "Michel Ibrahim",
+  },
+  
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
