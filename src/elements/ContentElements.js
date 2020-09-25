@@ -1,12 +1,12 @@
 import styled from "styled-components"
 
 export const ContentWrapper = styled.main`
-    grid-column: 4 / span 8;
-    grid-row: 3 / span 5;
+    grid-column: 4 / span 9;
+    grid-row: 4/ span 5;
     background-color: ${props => props.theme.colors.light2};
     padding: ${props => `${props.theme.spacings.xLarge} ${props.theme.spacings.xxLarge}`};
     box-shadow : ${props => props.theme.shadows.shadow1};
-    z-index: 10;
+    z-index: 100;
 
 
     @media ${props => props.theme.breakpoints.tablet} {

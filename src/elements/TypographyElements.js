@@ -60,7 +60,7 @@ text-align: ${props => props.textAlign ? props.textAlign : "left"};
 `
 
 export const H1 = styled.h1`
-    font-size: 2.25rem;
+    font-size: 2rem;
     line-height: 2.5rem;
     color: ${props => {
         switch(props.color) {
